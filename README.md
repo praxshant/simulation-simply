@@ -110,20 +110,7 @@ A total of **8 ML models** were trained:
 
 ---
 
-# 7. Results – Model Comparison Table
-
-*(Fill this table using your notebook output)*
-
-| Model | MAE | MSE | RMSE | R² |
-|-------|------|--------|--------|-------|
-| RandomForest | ... | ... | ... | ... |
-| GradientBoosting | ... | ... | ... | ... |
-| SVR | ... | ... | ... | ... |
-| DecisionTree | ... | ... | ... | ... |
-| KNN | ... | ... | ... | ... |
-| Ridge | ... | ... | ... | ... |
-| Lasso | ... | ... | ... | ... |
-| LinearRegression | ... | ... | ... | ... |
+# 7. Results(Check notebook for results)
 
 ---
 
@@ -132,7 +119,7 @@ A total of **8 ML models** were trained:
 Based on R², MAE, and RMSE:
 
 ### ⭐ **Best Performing Model:**  
-**< Write the best model from your actual results >**
+**Decision Tree**
 
 ### ✔ Why this model performed best:
 - Captures non-linear relationships between arrival rate, service rate, and queue behavior  
@@ -175,7 +162,9 @@ These visual summaries make it clear which model generalizes best.
 # 11. Repository Structure
 
 /Assignment-6
+
 │── assignment6_simulation_ml.ipynb # Main Colab notebook
+
 │── README.md # Detailed report (this file)
 
 
@@ -197,5 +186,6 @@ Simulation + ML is a powerful combination for:
 - Operational research  
 
 ---
+
 
 # THANK YOU!!
